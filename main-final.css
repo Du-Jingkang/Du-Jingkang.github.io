@@ -1,0 +1,84 @@
+h1 {
+    font-size: 3vw;
+    color:rgb(212, 34, 49);
+}
+
+h2 {
+    color:chocolate;
+    border: solid;
+    border-width: 2px;
+    padding-left: 5px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color:rgb(148, 13, 13)
+}
+
+table, th, td {
+    border-style: dotted;
+    border-color: rgb(148, 13, 13)
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color:rgb(148, 13, 13)
+}
+p{
+    color:rgb(148, 13, 13)
+}
+
+body {
+    font-family: "Verdana", Geneva, sans-serif;
+    background-color: #6169ce;
+}
+
+.stats {
+    color: rgb(148, 13, 13);
+}
+header{
+    background-color: rgb(19, 55, 173);
+    color:#FFFAFF;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid #FFFAFF;
+}
+.navbar{
+    background-color: #6169ce;
+    border: solid #05055f;
+    font-size: 20px;
+}
+.navbar th{
+    border:solid #000080;
+    padding: 5px;
+}
+footer{
+    color:#FFFAFF;
+    font-size: 3px solid #FFFAFF;
+    padding-left: 5px;
+}
+a:hover{
+    color: red;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display:none
+}
+.dropdown:hover .dropdown-content {
+    display:block
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown-content{
+    box-shadow: 10px 10px 20px black;
+    display: none;
+    position:absolute;
+    background-color: red;
+    color: whitesmoke;
+}

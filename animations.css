@@ -1,0 +1,75 @@
+.fade-in{
+    animation-name: fade-in-animation;
+    animation-duration: 5s;
+}
+@keyframes fade-in-animation{
+    from{
+        opacity: 0;
+        width: 500px;
+    }
+
+    to{
+        opacity: 1;
+        width: 800px;
+    }
+}
+.blink-color{
+    animation-name: blink-color-animation ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-color-animation{
+    0%{
+        color: red;
+    }
+    40%{
+        color: gold;
+    }
+    75%{
+        color: blue;
+    }
+    90%{
+        color: green;
+    }
+    100%{
+        color: orange;
+    }
+}
+.footer-animation{
+    animation-name: blink-color-animation-footer ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes blink-color-animation-footer{
+    0%{
+        background-color:white
+    }
+    25%{
+       background-color: sandybrown;
+    }
+    50%{
+        background-color: limegreen;
+    }
+    75%{
+        background-color: mediumblue;
+    }
+    100%{
+        background-color: darkred;
+    }
+}
+.amogus-animation{
+    animation-name: rotate-animation-amogus;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate-animation-amogus{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
